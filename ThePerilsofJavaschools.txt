@@ -1,0 +1,21 @@
+The Perils of Javaschools
+
+Este artículo fue escrito en el 2005 y a pesar de que cumplirá 12 años, sigue vigente. 
+El autor es CEO de Stack Overflow y cofundador de Trello y Fog Creek Software.
+Antes se enseñaba a programar con punched cards donde si te equivocabas no tenías la oportunidad de cambiarlo, se debía iniciar desde 0 a programar en la tarjeta. Incluso la gente prefería resolver los problemas en C durante las entrevistas de trabajo, ahora escogen Java.
+C vs Java: Java no es considerado un lenguaje difícil de aprender, no sirve como diferenciador entre los buenos programadores y los mediocres. 
+Hay dos temas enseñados en las universidades que la gente no llega a entender por completo: Apuntadores y Recursión.
+
+Dichos temas eran particulares en las universidades de antes:
+- El tema de apuntadores era demasiado complejo, hacía explotar la mente de los estudiantes en la carrera. Provocando deserción en muchos casos. A pesar de que no son necesarios, sin ellos no sería posible el trabajar en el kernel de Linux o en cualquier sistema operativo. 
+- El tema de Programación Funcional (PF) era otro curso complicado en las ciencias computacionales. Aquí aprendías a utilizar la programación recursiva. A pesar de que en la práctica no se necesita mucho, sin entender la PF, el algoritmo de MapReduce que hace que Google sea tan escalable no habría sido posible. 
+
+Actualmente, una buena cantidad de universidades de Ciencias Computacionales han adoptado Java al 100%, haciendo que la tasa de deserción estudiantil disminuya, ya que Java no es lo "suficientemente difícil".
+Los jóvenes de JavaSchools nunca lidiaran con cosas como fallo de segmentación al implementar apuntadores o como es que no cambia el valor de una variable en PF, etc. En pocas palabras, evitaron todos esos problemas difíciles que existían a lo largo de la carrera.
+
+El griego y el latín fueron materias requeridas a partir de 1900, con el propósito de hacer pensar al estudiante, de entrenar la mente y la memoria. Es por eso que se podría considerar a los apuntadores y a la PF como el griego y el latín de las ciencias computacionales.
+Además de la importancia ya mencionada, la PF y los apuntadores son considerados como el valor agregado que le da a los programadores el entendimiento que se requiere para la construcción de sistemas grandes, pues brinda una flexibilidad mental considerable. La comprensión de ambos temas está relacionada con la habilidad de ser un buen programador.
+Las JavaSchools no están capacitadas para lidiar con los problemas ya mencionados, debido a que no requieren esa parte del cerebro para hacer un buen trabajo de programación. Paul Graham les llamó Programadores llorones. Estas escuelas también fracasan en hacer de sus estudiantes lo suficientemente flexibles, ágiles y adaptativos para realizar un buen diseño de software. Necesitas pensar en múltiples niveles de abstracción simultáneamente para hacer un buen diseño. 
+Cabe resaltar que la Programación Orientada a Objetos (POO), de Java, no sustituye a la PF y apuntadores. En POO, tu programa sigue funcionando a pesar de que tenga errores, solo que se vuelve más difícil de dar mantenimiento. Por el contrario, cuando te enfrentabas a errores de apuntadores tu programa producía errores de segmentación y no tenías idea de lo que estaba pasando, hasta que forzabas a tu cerebro a encontrar una posible solución.
+Personas que trabajan con apuntadores en Scheme, Haskell y C, son capaces de aprender Java en poco tiempo y desarrollar mejor código que aquellos que llevan 5 años de experiencia en ese lenguaje.
+La misión de los departamentos de Ciencias Computacionales no debería estar enfocada a tu primer trabajo o a trabajar en la industria, debería darte las herramientas necesarias para vivir tu vida y fortalecer otras habilidades.
